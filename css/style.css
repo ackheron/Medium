@@ -1,9 +1,8 @@
 /*----------  import  ----------*/
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Long+Cang&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
 /*----------  reset  ----------*/
 
@@ -13,14 +12,38 @@
     box-sizing: border-box;
 }
 
+
+/*=============================================
+=             Variables            =
+=============================================*/
+:root {
+    --primary: #be2529;
+    --secondary: #0d0d0d;
+    --dark: #333;
+    --gray: #ddd;
+    --gray-light: #eee;
+    --gray-hint: #555;
+}
+
+
+
+
+
+
+/*=====  End of  Variables  ======*/
+
+
+
 /*=============================================
 =            général            =
 =============================================*/
-
+:root {
+    font-size: 62.5%;
+}
 
 html,
 body {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Roboto", sans-serif;
     background: #eee;
     color: #333;
 }
@@ -33,7 +56,7 @@ h1,
 h2,
 h3,
 h4 {
-    margin-bottom: 1rem;
+    font-family: 'Staatliches', cursive;
 }
 
 a {
