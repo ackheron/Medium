@@ -32,9 +32,6 @@
 /*=============================================
 =            général            =
 =============================================*/
-:root {
-    /* font-size: 62.5%; */
-}
 
 html,
 body {
@@ -81,6 +78,7 @@ em {
     display: block;
     max-width: 1100px;
     margin: auto;
+    height: 1500px;
 }
 
 .text-primary {
@@ -147,6 +145,20 @@ header ul li {
     padding: .625rem .9375rem;
 }
 
-
-
 /*=====  End of Section Header  ======*/
+
+
+/*=============================================
+=            Section Navbar            =
+=============================================*/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: .9375rem;
+    position: sticky;
+    top: 0;
+}
+
+
+/*=====  End of Section Navbar  ======*/
