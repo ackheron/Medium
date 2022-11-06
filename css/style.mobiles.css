@@ -1,0 +1,102 @@
+/*=============================================
+=            Section Header            =
+=============================================*/
+
+header {
+    grid-template-columns: 1fr;
+    place-items: center center;
+    line-height: normal;
+}
+
+header ul {
+    flex-direction: column;
+    place-self: stretch;
+}
+
+header ul li {
+    align-self: stretch;
+    text-align: center;
+    border-bottom: 1px solid var(--gray-light);
+}
+
+header ul li:last-child {
+    display: none;
+}
+
+
+/*=====  End of Section Header  ======*/
+
+
+/*=============================================
+=            Section Navbar            =
+=============================================*/
+nav {
+
+    overflow: hidden;
+}
+
+nav a {
+    padding: .625rem;
+}
+
+
+/*=====  End of Section Navbar  ======*/
+
+
+/*=============================================
+=            Section showcase            =
+=============================================*/
+.showcase {
+    grid: auto / 1fr;
+    padding-top: 0;
+}
+
+.showcase article:first-child {
+    grid-area: 1 / 1 / 2 / 2;
+    /* row-start / column-start / row-end / column-end */
+}
+
+.showcase article:last-child {
+    grid-area: 2 / 1 / 3 / 2;
+    /* row-start / column-start / row-end / column-end */
+
+}
+
+
+/*=====  End of Section showcase  ======*/
+
+
+/*=============================================
+=            Section ads            =
+=============================================*/
+.ads {
+    display: flex;
+    flex-direction: column;
+    padding: .625rem;
+    text-align: center;
+    align-items: center;
+}
+
+.ads img {
+    display: none;
+}
+
+/*=====  End of Section ads  ======*/
+
+
+/*=============================================
+=            Section, Articles            =
+=============================================*/
+.content {
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.popular {
+    padding: 0;
+    flex: 100%;
+}
+
+
+
+/*=====  End of Section, Articles  ======*/
